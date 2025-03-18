@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 4%;
+}
+
+.navbar h2 {
+    /* color: rgb(96, 95, 95); */
+    color: green;
+    font-family: overlook;
+    cursor: pointer;
+}
+
+.navbar .logo {
+    width: max(10%, 100px);
+    height: 60px;
+}
+
+.navbar .profile {
+    width: 60px;
+}
+
+
+/* media queries */
+
+@media (max-width: 450px) {
+    .navbar .logo {
+        width: max(10%, 70px);
+        height: 30px;
+    }
+
+    .navbar .profile {
+        width: 35px;
+    }
+
+    .navbar h2 {
+        font-size: 20px;
+    }
+}
